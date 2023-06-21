@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tekton_theme *.css
+recursive-include tekton_theme *.csv
+recursive-include tekton_theme *.html
+recursive-include tekton_theme *.ico
+recursive-include tekton_theme *.js
+recursive-include tekton_theme *.json
+recursive-include tekton_theme *.md
+recursive-include tekton_theme *.png
+recursive-include tekton_theme *.py
+recursive-include tekton_theme *.svg
+recursive-include tekton_theme *.txt
+recursive-exclude tekton_theme *.pyc
