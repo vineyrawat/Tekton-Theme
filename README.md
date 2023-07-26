@@ -2,6 +2,9 @@
 
 Tekton-Theme is a custom app for Frappe that enhances the theme switcher functionality by providing additional themes. As of now, it includes one theme called 'Tekton Blue'.
 
+![image](https://github.com/vineyrawat/Tekton-Theme/assets/77631301/0923eb34-1232-4dc1-ab60-852ec66af2ef)
+
+
 ## Installation
 
 To install the Tekton-Theme custom app, follow the steps below:
