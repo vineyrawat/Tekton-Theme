@@ -14,7 +14,7 @@ To install the Tekton-Theme custom app, follow the steps below:
 
 ```
 cd /path/to/frappe-bench
-bench get-app https://github.com/vineyrawat/Tekton-Theme.git
+bench get-app tekton_theme https://github.com/vineyrawat/Tekton-Theme.git
 ```
 
 3. Install the app using the Frappe Bench:
