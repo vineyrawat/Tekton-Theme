@@ -11,8 +11,8 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/tekton_theme/css/tekton_theme.css"
-# app_include_js = "/assets/tekton_theme/js/tekton_theme.js"
+app_include_js =  ["tekton.bundle.js"]
+app_include_css = "tekton.bundle.css"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/tekton_theme/css/tekton_theme.css"
@@ -139,9 +139,9 @@ app_license = "MIT"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-#	"frappe.desk.doctype.event.event.get_events": "tekton_theme.event.get_events"
-# }
+override_whitelisted_methods = {
+	"frappe.core.doctype.user.user.switch_theme": "tekton_theme.overrides.user.user.switch_theme"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,

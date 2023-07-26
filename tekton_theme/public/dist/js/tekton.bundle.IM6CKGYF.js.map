@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../apps/tekton_theme/tekton_theme/public/js/theme-switcher.js", "../../../../../apps/tekton_theme/tekton_theme/public/js/tekton.bundle.js"],
+  "sourcesContent": ["frappe.provide(\"frappe.ui\");\n\nfrappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitcher {\n    constructor() {\n        super()\n    }\n\n    fetch_themes() {\n\t\treturn new Promise((resolve) => {\n\t\t\tthis.themes = [\n\t\t\t\t{\n\t\t\t\t\tname: \"light\",\n\t\t\t\t\tlabel:(\"Frappe Light\"),\n\t\t\t\t\tinfo:(\"Light Theme\"),\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\tname: \"dark\",\n\t\t\t\t\tlabel:\"Timeless Night\",\n\t\t\t\t\tinfo:\"Dark Theme\",\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\tname: \"automatic\",\n\t\t\t\t\tlabel:\"Automatic\",\n\t\t\t\t\tinfo:\"Uses system's theme to switch between light and dark mode\",\n\t\t\t\t},\n                {\n                    name:\"tekton-blue\",\n                    label: \"Tekton-Blue\",\n                    info: \"Tekton Blue\"\n                }\n\t\t\t];\n\n\t\t\tresolve(this.themes);\n\t\t});\n\t}\n}", "import \"./theme-switcher.js\"\nconsole.log(\"INJECTED FILE\")"],
+  "mappings": "MAAA,OAAO,QAAQ,WAAW,EAE1B,OAAO,GAAG,cAAgB,aAAkC,QAAO,GAAG,aAAc,CAChF,aAAc,CACV,MAAM,CACV,CAEA,cAAe,CACjB,MAAO,IAAI,SAAQ,AAAC,GAAY,CAC/B,KAAK,OAAS,CACb,CACC,KAAM,QACN,MAAO,eACP,KAAM,aACP,EACA,CACC,KAAM,OACN,MAAM,iBACN,KAAK,YACN,EACA,CACC,KAAM,YACN,MAAM,YACN,KAAK,2DACN,EACY,CACI,KAAK,cACL,MAAO,cACP,KAAM,aACV,CACb,EAEA,EAAQ,KAAK,MAAM,CACpB,CAAC,CACF,CACD,EClCA,QAAQ,IAAI,eAAe",
+  "names": []
+}
