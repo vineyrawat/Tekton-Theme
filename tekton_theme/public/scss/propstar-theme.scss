@@ -8,12 +8,12 @@
     --gray-500: #b5b325;
     --gray-600: #8d821c;
     --gray-700: #6e5e17;
-    --gray-800: #4f4911;
+    --gray-800: #000000;
     --gray-900: #30290b;
 
     /* Primary Text Colors */
-    --text-muted: var(--gray-400);
-    --text-light: var(--gray-300);
+    --text-muted: var(--gray-100);
+    --text-light: var(--gray-100);
     --text-color: var(--gray-50);
     --heading-color: var(--gray-50);
 
@@ -76,7 +76,7 @@
     --error-border: var(--red-400);
     --icon-fill: transparent;
     --icon-stroke: var(--gray-300);
-    --alert-text-danger: var(--red-300);
+    --alert-text-danger: var(--red-100);
     --alert-text-warning: var(--yellow-300);
     --alert-text-info: var(--blue-300);
     --alert-text-success: var(--green-300);

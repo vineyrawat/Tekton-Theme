@@ -34,6 +34,11 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
                     info: "PropStar Red"
                 },
 				{
+                    name:"propstar-green",
+                    label: "PropStar-Green",
+                    info: "PropStar Green"
+                },
+				{
                     name:"propstar-theme",
                     label: "PropStar Theme",
                     info: "PropStar Theme"
@@ -43,6 +48,7 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
 					label: "Gradient Theme",
 					info: "Gradient Theme"
 				}
+
 			];
 
 			resolve(this.themes);

@@ -34,6 +34,11 @@
             info: "PropStar Red"
           },
           {
+            name: "propstar-green",
+            label: "PropStar-Green",
+            info: "PropStar Green"
+          },
+          {
             name: "propstar-theme",
             label: "PropStar Theme",
             info: "PropStar Theme"
@@ -52,4 +57,4 @@
   // ../tekton_theme/tekton_theme/public/js/tekton.bundle.js
   console.log("INJECTED FILE");
 })();
-//# sourceMappingURL=tekton.bundle.CF4FAYHR.js.map
+//# sourceMappingURL=tekton.bundle.7MZBOY5W.js.map
