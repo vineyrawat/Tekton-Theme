@@ -5,3 +5,5 @@
 tags
 tekton_theme/docs/current
 node_modules/
+tekton.bundle.*.css
+tekton.bundle.*.css.map

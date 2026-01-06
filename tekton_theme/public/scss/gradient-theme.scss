@@ -6,10 +6,10 @@
     --gray-300: #6df174;
     --gray-400: #40e048;
     --gray-500: #25b544;
-    --gray-600: linear-gradient(135deg, #883200 0%, #002e8a 100%);
-    --gray-700: linear-gradient(135deg, #883200 0%, #002e8a 100%);
-    --gray-800: linear-gradient(135deg, #883200 0%, #002e8a 100%);
-    --gray-900: linear-gradient(135deg, #883200 0%, #002e8a 100%);
+    --gray-600: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    --gray-700: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    --gray-800: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    --gray-900: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
 
     /* Primary Text Colors */
     --text-muted: var(--black-900);
@@ -150,9 +150,15 @@
 
     }
 
-    // .navbar {
-    //     background: linear-gradient(135deg, #00460f 0%, #001b05 100%);
-    // }
+    .navbar {
+        background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    }
+    .navbar ul {
+        background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    }
+    .dropdown-menu {
+        background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    }
 
     // .frappe-card {
     //     background: linear-gradient(135deg, #00460f 0%, #001b05 100%);
