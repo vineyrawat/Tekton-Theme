@@ -30,18 +30,18 @@
           },
           {
             name: "propstar-red",
-            label: "PropStar-Red",
-            info: "PropStar Red"
+            label: "Propstar-Red",
+            info: "Propstar Red"
           },
           {
             name: "propstar-green",
-            label: "PropStar-Green",
-            info: "PropStar Green"
+            label: "Propstar-Green",
+            info: "Propstar Green"
           },
           {
             name: "propstar-theme",
-            label: "PropStar Theme",
-            info: "PropStar Theme"
+            label: "Propstar Theme",
+            info: "Propstar Theme"
           },
           {
             name: "gradient-theme",
@@ -57,4 +57,4 @@
   // ../tekton_theme/tekton_theme/public/js/tekton.bundle.js
   console.log("INJECTED FILE");
 })();
-//# sourceMappingURL=tekton.bundle.7MZBOY5W.js.map
+//# sourceMappingURL=tekton.bundle.Z477S4J6.js.map

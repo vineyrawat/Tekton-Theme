@@ -30,18 +30,18 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
                 },
 				{
                     name:"propstar-red",
-                    label: "PropStar-Red",
-                    info: "PropStar Red"
+                    label: "Propstar-Red",
+                    info: "Propstar Red"
                 },
 				{
                     name:"propstar-green",
-                    label: "PropStar-Green",
-                    info: "PropStar Green"
+                    label: "Propstar-Green",
+                    info: "Propstar Green"
                 },
 				{
                     name:"propstar-theme",
-                    label: "PropStar Theme",
-                    info: "PropStar Theme"
+                    label: "Propstar Theme",
+                    info: "Propstar Theme"
                 },
 				{
 					name:"gradient-theme",

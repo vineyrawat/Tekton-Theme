@@ -1,19 +1,19 @@
 [data-theme="gradient-theme"] {
     /* Background Colors */
-    --gray-50:  linear-gradient( #5c0c0c, #09ff00);  
-    --gray-100: linear-gradient( #5c0c0c, #09ff00);  
-    --gray-200: linear-gradient( #5c0c0c, #09ff00);  
-    --gray-300: linear-gradient( #5c0c0c, #09ff00);
-    --gray-400: linear-gradient( #5c0c0c, #09ff00);
-    --gray-500: linear-gradient( #5c0c0c, #09ff00);
-    --gray-600: linear-gradient( #5c0c0c, #09ff00);
-    --gray-700: linear-gradient( #5c0c0c, #09ff00);
-    --gray-800: linear-gradient( #5c0c0c, #09ff00);  
-    --gray-900: linear-gradient( #5c0c0c, #09ff00);
+    --gray-50: #e8feec;
+    --gray-100: #d0d1fa;
+    --gray-200: #a3a1f7;
+    --gray-300: #6df174;
+    --gray-400: #40e048;
+    --gray-500: #25b544;
+    --gray-600: linear-gradient(135deg, #883200 0%, #002e8a 100%);
+    --gray-700: linear-gradient(135deg, #883200 0%, #002e8a 100%);
+    --gray-800: linear-gradient(135deg, #883200 0%, #002e8a 100%);
+    --gray-900: linear-gradient(135deg, #883200 0%, #002e8a 100%);
 
     /* Primary Text Colors */
-    --text-muted: var(--gray-400);
-    --text-light: var(--gray-300);
+    --text-muted: var(--gray-50);
+    --text-light: var(--gray-100);
     --text-color: var(--gray-50);
     --heading-color: var(--gray-50);
 
@@ -144,4 +144,17 @@
             --indicator-dot-#{"" + $color}: var(--bg-#{$color});
         }
     }
+
+    body {
+        background: linear-gradient(135deg, #883200 0%, #002e8a 100%);
+
+    }
+
+    // .navbar {
+    //     background: linear-gradient(135deg, #00460f 0%, #001b05 100%);
+    // }
+
+    // .frappe-card {
+    //     background: linear-gradient(135deg, #00460f 0%, #001b05 100%);
+    // }
 }

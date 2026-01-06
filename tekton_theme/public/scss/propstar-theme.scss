@@ -7,7 +7,7 @@
     --gold-100: #ffe9a9;
     --gold-200: #f6d77a;
     --gold-300: #e6c453;
-    --gold-400: #d4af37;
+    --gold-400: #d4af37;    
     --gold-500: #b8962e;
     --gold-600: #8f741a;
 
@@ -216,11 +216,11 @@
         border-color: var(--gold-400) !important;
     }
 
-    /* TABLE ROW HOVER */
-    tr:hover,
-    .table-hover tbody tr:hover {
-        background-color: var(--black-600) !important;
-        color: var(--gold-300) !important;
-    }
+    // /* TABLE ROW HOVER */
+    // tr:hover,
+    // .table-hover tbody tr:hover {
+    //     background-color: var(--black-600) !important;
+    //     color: var(--gold-300) !important;
+    // }
 }
 
