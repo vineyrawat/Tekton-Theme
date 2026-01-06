@@ -2,6 +2,7 @@
     /* Background Colors */
     --gray-50: #e8feec;
     --gray-100: #d0fad6;
+    --gray-150: #6d6d6d;
     --gray-200: #a1f7a8;
     --gray-300: #6df174;
     --gray-400: #40e048;
@@ -12,7 +13,7 @@
     --gray-900: #001b05;
 
     /* Primary Text Colors */
-    --text-muted: var(--gray-50);
+    --text-muted: var(--gray-150);
     --text-light: var(--gray-100);
     --text-color: var(--gray-50);
     --heading-color: var(--gray-50);

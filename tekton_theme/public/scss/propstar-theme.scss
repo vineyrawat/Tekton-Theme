@@ -40,7 +40,7 @@
     --text-color: var(--gold-400);
     --heading-color: var(--gold-300);
     --text-light: var(--gold-200);
-    --text-muted: var(--gold-100);
+    --text-muted: var(--gray-500);
     --disabled-text-color: var(--gold-600);
 
     /* =====================================
@@ -216,11 +216,59 @@
         border-color: var(--gold-400) !important;
     }
 
-    // /* TABLE ROW HOVER */
-    // tr:hover,
-    // .table-hover tbody tr:hover {
-    //     background-color: var(--black-600) !important;
-    //     color: var(--gold-300) !important;
-    // }
+    /* ===============================
+   TITLE BAR / NAVBAR TEXT FIX
+================================ */
+
+/* Page Title */
+.page-title .title-text,
+.page-title h1,
+.page-title h2 {
+    color: var(--gold-400) !important;
+    opacity: 1 !important;
+}
+
+/* Navbar Brand / App Title */
+.navbar .navbar-brand,
+.navbar .navbar-brand span {
+    color: var(--gold-400) !important;
+}
+
+/* Prevent global hover from breaking navbar */
+.navbar a:hover,
+.navbar .nav-link:hover,
+.page-title:hover {
+    background-color: transparent !important;
+    color: var(--gold-300) !important;
+}
+
+/* Ensure navbar is above cards */
+.navbar {
+    z-index: 1050;
+}
+
+/* ===============================
+   TABLE ROW HOVER TEXT FIX
+================================ */
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover td a,
+.table-hover tbody tr:hover span,
+.table-hover tbody tr:hover div {
+    color: var(--gold-300) !important;
+}
+
+/* Icons inside table */
+.table-hover tbody tr:hover svg,
+.table-hover tbody tr:hover i {
+    stroke: var(--gold-300) !important;
+    fill: var(--gold-300) !important;
+}
+
+/* Prevent global hover override */
+.table-hover tbody tr:hover a:hover {
+    background-color: transparent !important;
+}
+
 }
 

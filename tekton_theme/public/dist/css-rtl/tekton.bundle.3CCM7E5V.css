@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-24476-haUOZMQmTHq3/tekton_theme/tekton_theme/public/scss/tekton.bundle.css */
+/* ../../../../../tmp/tmp-31321-ZzxREcmhorLJ/tekton_theme/tekton_theme/public/scss/tekton.bundle.css */
 [data-theme=tekton-blue] {
   --gray-50: #E8F5FE;
   --gray-100: #D0E7FA;
@@ -349,7 +349,7 @@
   --text-color: var(--gold-400);
   --heading-color: var(--gold-300);
   --text-light: var(--gold-200);
-  --text-muted: var(--gold-100);
+  --text-muted: var(--gray-500);
   --disabled-text-color: var(--gold-600);
   --btn-default-bg: var(--black-700);
   --btn-default-hover-bg: var(--black-600);
@@ -470,6 +470,39 @@
   color: var(--gold-400) !important;
   border-color: var(--gold-400) !important;
 }
+[data-theme=propstar-theme] .page-title .title-text,
+[data-theme=propstar-theme] .page-title h1,
+[data-theme=propstar-theme] .page-title h2 {
+  color: var(--gold-400) !important;
+  opacity: 1 !important;
+}
+[data-theme=propstar-theme] .navbar .navbar-brand,
+[data-theme=propstar-theme] .navbar .navbar-brand span {
+  color: var(--gold-400) !important;
+}
+[data-theme=propstar-theme] .navbar a:hover,
+[data-theme=propstar-theme] .navbar .nav-link:hover,
+[data-theme=propstar-theme] .page-title:hover {
+  background-color: transparent !important;
+  color: var(--gold-300) !important;
+}
+[data-theme=propstar-theme] .navbar {
+  z-index: 1050;
+}
+[data-theme=propstar-theme] .table-hover tbody tr:hover td,
+[data-theme=propstar-theme] .table-hover tbody tr:hover td a,
+[data-theme=propstar-theme] .table-hover tbody tr:hover span,
+[data-theme=propstar-theme] .table-hover tbody tr:hover div {
+  color: var(--gold-300) !important;
+}
+[data-theme=propstar-theme] .table-hover tbody tr:hover svg,
+[data-theme=propstar-theme] .table-hover tbody tr:hover i {
+  stroke: var(--gold-300) !important;
+  fill: var(--gold-300) !important;
+}
+[data-theme=propstar-theme] .table-hover tbody tr:hover a:hover {
+  background-color: transparent !important;
+}
 [data-theme=gradient-theme] {
   --gray-50: #e8feec;
   --gray-100: #d0d1fa;
@@ -481,7 +514,7 @@
   --gray-700: linear-gradient(135deg, #883200 0%, #002e8a 100%);
   --gray-800: linear-gradient(135deg, #883200 0%, #002e8a 100%);
   --gray-900: linear-gradient(135deg, #883200 0%, #002e8a 100%);
-  --text-muted: var(--gray-50);
+  --text-muted: var(--black-900);
   --text-light: var(--gray-100);
   --text-color: var(--gray-50);
   --heading-color: var(--gray-50);
@@ -633,11 +666,12 @@
   --indicator-dot-cyan: var(--bg-cyan);
 }
 [data-theme=gradient-theme] body {
-  background: linear-gradient(135deg, #883200 0%, #002e8a 100%);
+  background: linear-gradient(-135deg, #883200 0%, #002e8a 100%);
 }
 [data-theme=propstar-green] {
   --gray-50: #e8feec;
   --gray-100: #d0fad6;
+  --gray-150: #6d6d6d;
   --gray-200: #a1f7a8;
   --gray-300: #6df174;
   --gray-400: #40e048;
@@ -646,7 +680,7 @@
   --gray-700: #e0dd00;
   --gray-800: #00460f;
   --gray-900: #001b05;
-  --text-muted: var(--gray-50);
+  --text-muted: var(--gray-150);
   --text-light: var(--gray-100);
   --text-color: var(--gray-50);
   --heading-color: var(--gray-50);
@@ -797,4 +831,4 @@
 [data-theme=propstar-green] .indicator {
   --indicator-dot-cyan: var(--bg-cyan);
 }
-/*# sourceMappingURL=tekton.bundle.RWC4DJ27.css.map */
+/*# sourceMappingURL=tekton.bundle.3CCM7E5V.css.map */
