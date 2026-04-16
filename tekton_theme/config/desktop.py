@@ -8,3 +8,4 @@ def get_data():
 			"label": _("Tekton Theme")
 		}
 	]
+	

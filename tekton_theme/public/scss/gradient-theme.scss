@@ -1,19 +1,19 @@
-[data-theme="tekton-blue"] {
+[data-theme="gradient-theme"] {
     /* Background Colors */
-    --gray-50: #E8F5FE;
-    --gray-100: #D0E7FA;
-    --gray-200: #A1D0F7;
-    --gray-300: #6DB9F1;
-    --gray-400: #4091E0;
-    --gray-500: #2567B5;
-    --gray-600: #1C4F8D;
-    --gray-700: #173F6E;
-    --gray-800: #112F4F;
-    --gray-900: #0B1E30;
+    --gray-50: #e8feec;
+    --gray-100: #d0d1fa;
+    --gray-200: #a3a1f7;
+    --gray-300: #6df174;
+    --gray-400: #40e048;
+    --gray-500: #25b544;
+    --gray-600: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    --gray-700: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    --gray-800: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    --gray-900: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
 
     /* Primary Text Colors */
-    --text-muted: var(--gray-300);
-    --text-light: var(--gray-400);
+    --text-muted: var(--black-900);
+    --text-light: var(--gray-100);
     --text-color: var(--gray-50);
     --heading-color: var(--gray-50);
 
@@ -95,7 +95,7 @@
     --yellow-highlight-color: var(--yellow-700);
     --btn-group-border-color: var(--gray-800);
     --highlight-shadow: 1px 1px 10px var(--gray-900), 0px 0px 4px var(--gray-500);
-    --shadow-base: 0px 4px 8px rgba(114, 176, 233, 0.06), 0px 0px 4px rgba(112, 172, 228, 0.12);
+    --shadow-base: 0px 4px 8px rgba(233, 114, 114, 0.06), 0px 0px 4px rgba(228, 112, 112, 0.12);
     --diff-added: var(--green-800);
     --diff-removed: var(--red-800);
     --input-disabled-bg: none;
@@ -144,4 +144,23 @@
             --indicator-dot-#{"" + $color}: var(--bg-#{$color});
         }
     }
+
+    body {
+        background: linear-gradient(135deg, #883200 0%, #002e8a 100%);
+
+    }
+
+    .navbar {
+        background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    }
+    .navbar ul {
+        background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    }
+    .dropdown-menu {
+        background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #FCB045 100%);
+    }
+
+    // .frappe-card {
+    //     background: linear-gradient(135deg, #00460f 0%, #001b05 100%);
+    // }
 }

@@ -1,0 +1,274 @@
+[data-theme="propstar-theme"] {
+
+    /* =====================================
+       GOLDEN COLOR SYSTEM
+    ===================================== */
+    --gold-50:  #fff4cf;
+    --gold-100: #ffe9a9;
+    --gold-200: #f6d77a;
+    --gold-300: #e6c453;
+    --gold-400: #d4af37;    
+    --gold-500: #b8962e;
+    --gold-600: #8f741a;
+
+    /* =====================================
+       PURE BLACK BACKGROUNDS
+    ===================================== */
+    --black-900: #000000;
+    --black-850: #050505;
+    --black-800: #0b0b0b;
+    --black-700: #141414;
+    --black-600: #1c1c1c;
+
+    /* =====================================
+       GRAYS (DARK ONLY)
+    ===================================== */
+    --gray-50:  var(--gold-50);
+    --gray-100: var(--gold-100);
+    --gray-200: var(--gold-200);
+    --gray-300: var(--gold-300);
+    --gray-400: var(--gold-400);
+    --gray-500: var(--gold-500);
+    --gray-600: var(--black-600);
+    --gray-700: var(--black-700);
+    --gray-800: var(--black-800);
+    --gray-900: var(--black-900);
+
+    /* =====================================
+       TEXT COLORS
+    ===================================== */
+    --text-color: var(--gold-400);
+    --heading-color: var(--gold-300);
+    --text-light: var(--gold-200);
+    --text-muted: var(--gray-500);
+    --disabled-text-color: var(--gold-600);
+
+    /* =====================================
+       BUTTONS
+    ===================================== */
+    --btn-default-bg: var(--black-700);
+    --btn-default-hover-bg: var(--black-600);
+
+    /* =====================================
+       BACKGROUND + TEXT PAIRS
+    ===================================== */
+    --bg-blue: var(--black-700);
+    --bg-light-blue: var(--black-600);
+    --bg-dark-blue: var(--black-900);
+
+    --bg-green: var(--black-700);
+    --bg-yellow: var(--black-700);
+    --bg-orange: var(--black-700);
+    --bg-red: var(--black-700);
+    --bg-gray: var(--black-700);
+    --bg-grey: var(--black-700);
+    --bg-darkgrey: var(--black-800);
+    --bg-dark-gray: var(--black-800);
+    --bg-light-gray: var(--black-600);
+    --bg-purple: var(--black-700);
+    --bg-pink: var(--black-700);
+    --bg-cyan: var(--black-700);
+
+    --text-on-blue: var(--gold-300);
+    --text-on-light-blue: var(--gold-300);
+    --text-on-dark-blue: var(--gold-200);
+    --text-on-green: var(--gold-300);
+    --text-on-yellow: var(--gold-300);
+    --text-on-orange: var(--gold-300);
+    --text-on-red: var(--gold-300);
+    --text-on-gray: var(--gold-300);
+    --text-on-grey: var(--gold-300);
+    --text-on-darkgrey: var(--gold-200);
+    --text-on-dark-gray: var(--gold-200);
+    --text-on-light-gray: var(--gold-300);
+    --text-on-purple: var(--gold-300);
+    --text-on-pink: var(--gold-300);
+    --text-on-cyan: var(--gold-300);
+
+    /* =====================================
+       LAYOUT
+    ===================================== */
+    --bg-color: var(--black-900);
+    --fg-color: var(--black-850);
+    --navbar-bg: var(--black-900);
+    --fg-hover-color: var(--black-700);
+    --card-bg: var(--black-800);
+
+    --control-bg: var(--black-700);
+    --control-bg-on-gray: var(--black-800);
+    --disabled-control-bg: var(--black-700);
+
+    --awesomebar-focus-bg: var(--control-bg);
+    --awesomplete-hover-bg: var(--black-700);
+    --modal-bg: var(--black-800);
+    --toast-bg: var(--black-800);
+    --popover-bg: var(--black-900);
+
+    /* =====================================
+       BORDERS / SHADOWS
+    ===================================== */
+    --border-color: var(--gold-600);
+    --dark-border-color: var(--gold-500);
+    --table-border-color: var(--gold-600);
+    --btn-group-border-color: var(--black-800);
+
+    --shadow-base: 0px 4px 12px rgba(212, 175, 55, 0.2);
+    --highlight-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
+
+    /* =====================================
+       ICONS
+    ===================================== */
+    --icon-fill: transparent;
+    --icon-stroke: var(--gold-300);
+
+    /* =====================================
+       ALERTS
+    ===================================== */
+    --alert-text-danger: var(--gold-200);
+    --alert-text-warning: var(--gold-200);
+    --alert-text-info: var(--gold-200);
+    --alert-text-success: var(--gold-200);
+
+    --alert-bg-danger: var(--black-800);
+    --alert-bg-warning: var(--black-800);
+    --alert-bg-info: var(--black-800);
+    --alert-bg-success: var(--black-800);
+
+    /* =====================================
+       SCROLLBAR
+    ===================================== */
+    --scrollbar-thumb-color: var(--gold-500);
+    --scrollbar-track-color: var(--black-700);
+
+    /* =====================================
+       INPUT PLACEHOLDERS (IMPORTANT)
+    ===================================== */
+    input::placeholder,
+    textarea::placeholder {
+        color: var(--gold-200);
+        opacity: 1 !important;
+    }
+
+    /* =====================================
+       SELECTION
+    ===================================== */
+    ::selection {
+        background: var(--gold-400);
+        color: var(--black-900);
+    }
+
+    /* =====================================
+       FRAPPE CHARTS
+    ===================================== */
+    .chart-container {
+        --charts-label-color: var(--gold-200);
+        --charts-axis-line-color: var(--gold-500);
+        --charts-tooltip-bg: var(--black-900);
+        --charts-tooltip-title: var(--gold-300);
+        --charts-tooltip-label: var(--gold-200);
+        --charts-tooltip-value: var(--gold-400);
+        --charts-legend-label: var(--gold-200);
+    }
+
+    /* =====================================
+       HEATMAP
+    ===================================== */
+    .heatmap-chart g > rect[fill="#ebedf0"] {
+        fill: var(--black-700);
+    }
+
+    /* =====================================
+       RATING STARS
+    ===================================== */
+    .rating {
+        --star-fill: var(--gold-400);
+    }
+
+    /* =====================================
+       SKELETON
+    ===================================== */
+    .skeleton {
+        --skeleton-bg: var(--black-700);
+    }
+
+    color-scheme: dark;
+
+
+    /* GLOBAL HOVER FIX */
+    a:hover,
+    button:hover,
+    .btn:hover,
+    .card:hover,
+    .list-group-item:hover,
+    .dropdown-item:hover,
+    .nav-link:hover,
+    .text-link:hover {
+        background-color: var(--gold-50) !important;
+        color: var(--gold-400) !important;
+    }
+
+    /* INPUT / CONTROL HOVER */
+    input:hover,
+    textarea:hover,
+    select:hover {
+        background-color: var(--black-600) !important;
+        color: var(--gold-400) !important;
+        border-color: var(--gold-400) !important;
+    }
+
+    /* ===============================
+   TITLE BAR / NAVBAR TEXT FIX
+================================ */
+
+/* Page Title */
+.page-title .title-text,
+.page-title h1,
+.page-title h2 {
+    color: var(--gold-400) !important;
+    opacity: 1 !important;
+}
+
+/* Navbar Brand / App Title */
+.navbar .navbar-brand,
+.navbar .navbar-brand span {
+    color: var(--gold-400) !important;
+}
+
+/* Prevent global hover from breaking navbar */
+.navbar a:hover,
+.navbar .nav-link:hover,
+.page-title:hover {
+    background-color: transparent !important;
+    color: var(--gold-300) !important;
+}
+
+/* Ensure navbar is above cards */
+.navbar {
+    z-index: 1050;
+}
+
+/* ===============================
+   TABLE ROW HOVER TEXT FIX
+================================ */
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover td a,
+.table-hover tbody tr:hover span,
+.table-hover tbody tr:hover div {
+    color: var(--gold-300) !important;
+}
+
+/* Icons inside table */
+.table-hover tbody tr:hover svg,
+.table-hover tbody tr:hover i {
+    stroke: var(--gold-300) !important;
+    fill: var(--gold-300) !important;
+}
+
+/* Prevent global hover override */
+.table-hover tbody tr:hover a:hover {
+    background-color: transparent !important;
+}
+
+}
+

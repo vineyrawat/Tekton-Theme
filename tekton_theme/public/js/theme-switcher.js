@@ -27,7 +27,28 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
                     name:"tekton-blue",
                     label: "Tekton-Blue",
                     info: "Tekton Blue"
-                }
+                },
+				{
+                    name:"propstar-red",
+                    label: "Propstar-Red",
+                    info: "Propstar Red"
+                },
+				{
+                    name:"propstar-green",
+                    label: "Propstar-Green",
+                    info: "Propstar Green"
+                },
+				{
+                    name:"propstar-theme",
+                    label: "Propstar Theme",
+                    info: "Propstar Theme"
+                },
+				{
+					name:"gradient-theme",
+					label: "Gradient Theme",
+					info: "Gradient Theme"
+				}
+
 			];
 
 			resolve(this.themes);
